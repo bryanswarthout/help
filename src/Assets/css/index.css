@@ -1,0 +1,107 @@
+.margin {
+    margin:20px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+.textcolor {
+    color: lightseagreen;
+}
+
+
+/* Sticky footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: darkgrey;
+    height: 60px;
+}
+
+/* Styling for footer content */
+.footercontent {
+    padding: 20px;
+    color: white;
+    font-size: small;
+}
+
+.block {
+    background: lightgray;
+    margin-bottom: 0px;
+}
+
+/* Styling for site logo */
+#logo {
+    font-size: 24px;
+    color: #eee;
+    background: lightseagreen;
+    font-weight: bold;
+}
+
+/* Background color for navigation bar */
+nav {
+    background: lightgray;
+}
+
+/* Styles and positions header banners for images in portfolio.html */
+.banner {
+    position: absolute;
+    bottom: 0px;
+    width: 92%;
+    padding: 20px 0px;
+    margin: 5% 5% 0% 5% auto;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    background: lightseagreen;
+}
+
+/* Adds space between each image in portfolio */
+.thumbnail {
+    margin: 5% auto;
+    width:92%;
+    height: fit-content;
+}
+
+.pageBackground {
+    background: lightblue;
+}
+
+
+/* Media queries to enhance responsiveness of banner width in portfolio */
+@media screen and (max-width: 980px) {
+    .banner {
+        width: 93%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .banner {
+        width: 88%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .banner {
+        width: 91%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .banner {
+        width: 90%;
+    }
+}
+
+/* body, html {
+    height: 100%;
+    margin: 0;
+} */

@@ -1,0 +1,28 @@
+.backgroundpic {
+    background-image: url("../../Assets/Images/outerspacehero.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: fixed; 
+    min-width: 100%;
+    min-height: 100%;
+}
+
+h1 {
+    color: lightblue;
+    font-family: 'Playfair Display SC';
+    font-size: 7rem;
+    margin-top: 10%;
+}
+
+h2 {
+    color: white;
+    font-family: 'Playfair Display SC' !important;
+    font-size: 3rem !important
+}
+.landingagebutton {
+    color: white;
+    font-family: 'Playfair Display SC';
+}
+
+
+

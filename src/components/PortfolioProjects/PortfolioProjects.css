@@ -1,0 +1,192 @@
+.margin {
+    margin:20px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.backgroundportfolio {
+    background-image: url("../../Assets/Images/S7LT1i.jpg");
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.banner {
+    position: absolute;
+    bottom: -1%;
+    width: 89.8%;
+    font-weight: 300;
+    color: white !important;
+    text-align: center;
+    background: darkblue;
+    border: 2px  solid white;
+    font-family: 'Playfair Display SC';
+}
+.banner p {
+    font-size: 1.5vh;
+}
+
+.banner h3 {
+    font-size: 3.5vh;
+}
+
+.thumbnail {
+    margin: 5% auto;
+    margin-right: 6%;
+    width: 96.5%;
+    height: 90%;
+    border: 3px solid white;
+}
+
+@media screen and (max-width: 1780px) {
+    .banner {
+        width: 88.3%;
+        /* bottom: -1%; */
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .banner {
+        width: 88.6%;
+        /* bottom: -1%; */
+    }
+}
+
+@media screen and (max-width: 1580px) {
+    .banner {
+        width: 88.2%;
+        /* bottom: -1%; */
+    }
+}
+
+@media screen and (max-width: 1530px) {
+    .banner {
+        width: 87.8%;
+        /* bottom: -1%; */
+    }
+}
+
+@media screen and (max-width: 1480px) {
+    .banner {
+        width: 87.3%;
+        /* bottom: -1%; */
+    }
+}
+
+@media screen and (max-width: 1430px) {
+    .banner {
+        width: 87.1%;
+        /* bottom: -1%; */
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .banner {
+        width: 86.8%;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .banner {
+        width: 86.3%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .banner {
+        width: 86%;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .banner {
+        width: 85.5%;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .banner {
+        width: 84.9%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .banner {
+        width: 83.5%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .banner {
+        width: 82.6%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .banner {
+        width: 88.3%;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .banner {
+        width: 87.3%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .banner {
+        width: 87%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .banner {
+        width: 86%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .banner {
+        width: 90.4%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .banner {
+        width: 90.1%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .banner {
+        width: 89.5%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .banner {
+        width: 87.5%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .banner {
+        width: 86.7%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .banner {
+        width: 86%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .banner {
+        width: 85%;
+    }
+}
