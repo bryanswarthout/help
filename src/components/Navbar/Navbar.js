@@ -7,7 +7,7 @@ export default function Navbar(){
         <div >
         {/* Responsive navigation bar, directs user to About Me, Portfolio, or Contact page */}
             <nav className="navbar navbar-expand-lg navbar-light ">
-            <a className="navbar-brand" href="index.html" id="logo"><Link to="/">Arash Bazrafshan</Link></a>
+            <Link to="/">Arash Bazrafshan</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -15,13 +15,13 @@ export default function Navbar(){
                 <ul className="navbar-nav mr-auto">
                     {/* List will redirect user to each of the three pages of this web site */}
                     <li className="nav-item">
-                    <a className="nav-link" href="about"><Link to="/about">About Me</Link> <span className="sr-only">(current)</span></a>
+                    <Link to="/about">About Me</Link> <span className="sr-only">(current)</span>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="portfolio"><Link to="/portfolio">Portfolio</Link> <span className="sr-only">(current)</span></a>
+                   <Link to="/portfolio">Portfolio</Link> <span className="sr-only">(current)</span>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="contact"><Link to="/contact">Contact</Link> <span className="sr-only">(current)</span></a>
+                   <Link to="/contact">Contact</Link> <span className="sr-only">(current)</span>
                     </li>
                 </ul>
             </span>
